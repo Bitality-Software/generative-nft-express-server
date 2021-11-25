@@ -1,0 +1,25 @@
+{
+    "attributes": [{
+        "trait_type": "Marka",
+        "value": "Hyundai"
+    }, {
+        "trait_type": "Araç",
+        "value": "Araba"
+    }, {
+        "trait_type": "Satıcı",
+        "value": "Samet Kalkan"
+    }, {
+        "trait_type": "KM",
+        "value": 6969
+    }, {
+        "trait_type": "Yakıt Tüketimi",
+        "value": 3
+    }, {
+        "trait_type": "Yakıt Tipi",
+        "value": "Dizel"
+    }],
+    "description": "Araba benim çocuğum gibi, boyası değişeni yok tertemiz.",
+    "external_url": "https://example.com/?token_id=1",
+    "image": "https://ipfs.carny.io/ipfs/QmRM5DBPj5p4S8ArFem3sTb5gzdwAgP1ka39HgrCsfNyrT",
+    "name": "Keyfe Keder Satılık Hyundai"
+}
