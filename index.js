@@ -1,9 +1,10 @@
 const express = require('express')
 const path = require('path')
 const PORT = process.env.PORT || 5000
-const sedatpeker =  require("./heroes/sedatpeker.json")
-const sametAraba =  require("./heroes/sametAraba.json")
-
+const savasci =  require("./heroes/savascci.json")
+const saman =  require("./heroes/saman.json")
+const sura =  require("./heroes/sura.json")
+const ninja =  require("./heroes/ninja.json")
 
 
 express()
@@ -11,8 +12,10 @@ express()
   .set('views', path.join(__dirname, 'views'))
   .set('view engine', 'ejs')
   .get('/', (req, res) => res.render('pages/index'))
-  .get('/sedatpeker', (req,res) => res.send(sedatpeker))
-  .get('/sametaraba', (req,res) => res.send(sametAraba))
+  .get('/1', (req,res) => res.send(savasci))
+  .get('/2', (req,res) => res.send(saman))
+  .get('/3', (req,res) => res.send(sura))
+  .get('/4', (req,res) => res.send(ninja))
 
 
   .listen(PORT, () => console.log(`Listening on ${ PORT }`))
