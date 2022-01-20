@@ -1,0 +1,37 @@
+{
+    "attributes": [{
+        "trait_type": "base",
+        "value": "starfish"
+    }, {
+        "trait_type": "eyes",
+        "value": "joy"
+    }, {
+        "trait_type": "mouth",
+        "value": "surprised"
+    }, {
+        "trait_type": "level",
+        "value": 2
+    }, {
+        "trait_type": "stamina",
+        "value": 2.3
+    }, {
+        "trait_type": "personality",
+        "value": "sad"
+    }, {
+        "display_type": "boost_number",
+        "trait_type": "aqua_power",
+        "value": 40
+    }, {
+        "display_type": "boost_percentage",
+        "trait_type": "stamina_increase",
+        "value": 10
+    }, {
+        "display_type": "number",
+        "trait_type": "generation",
+        "value": 2
+    }],
+    "description": "Ben Surayım",
+    "external_url": "https://example.com/?token_id=1",
+    "image": "https://tr-wiki.metin2.gameforge.com/images/a/ac/Sura.png",
+    "name": "Sura"
+}
